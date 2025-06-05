@@ -1,0 +1,20 @@
+.tabela, .tabela th, .tabela td {
+    border: 1px solid #000;
+}
+.tabela {
+    border-collapse: collapse;
+    width: 100%;
+}
+.tabela th, .tabela td {
+    padding: 8px;
+}
+.tabela th {
+    background-color: #000;
+    color: #F1F1F1;
+}
+.tabela tr:hover {
+    background-color: #ec80ec;
+}
+.tabela tr:nth-child(odd) {
+    background-color: #09705aa4;
+}

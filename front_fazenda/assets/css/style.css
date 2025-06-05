@@ -1,0 +1,114 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #f9f9f9;
+    padding: 20px;
+}
+.menu {
+    background-color: rgb(143, 122, 177);
+    color: navy;
+    padding: 8px;
+}
+
+.menu_conteudo {
+    max-width: 1200px;
+    margin: 0 auto;
+    list-style: none;
+    display: flex;
+    gap: 8px;
+}
+.menu_link {
+    color: black;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.menu_link:hover {
+    background-color: rgb(38, 212, 96);
+    padding: 10px 16px;
+}
+.titulo {
+    background: url(../img/fazenda.png);
+    background-size: cover;
+    background-position: center;
+    height: 260px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 16px;
+    text-align: center;
+}
+
+.texto {
+    background-color: green;
+    padding: 10px 16px;
+    width: 300px;
+    opacity: 0.83;
+}
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: #e5ebe8;
+    padding: 16px;
+    border: 2px solid #8a4a64; 
+    border-radius: 16px;
+    max-width: 350px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.15);
+}
+
+.card-img {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    object-fit: cover;
+    margin-bottom: 12px;
+}
+
+.card-titulo {
+    font-size: 1.3rem;
+    color: #395d42; 
+    margin-bottom: 8px;
+}
+
+.card-texto {
+    font-size: 0.95rem;
+    color: #333;
+    margin-bottom: 16px;
+    line-height: 1.5;
+}
+
+.card-link {
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 16px;
+    background-color: #8a4a64; 
+    color: #fff;
+    border-radius: 12px;
+    transition: background-color 0.3s, transform 0.2s;
+    font-weight: bold;
+    text-align:end;
+}
+
+.card-link:hover {
+    background-color: #6e364d;
+    transform: scale(1.05);
+}
