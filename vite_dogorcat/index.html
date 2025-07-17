@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Pet Viewer</title>
+    <link rel="stylesheet" href="/src/style.css" />
+  </head>
+  <body>
+    <main>
+      <h1>Veja um Pet</h1>
+      <div class="card">
+        <img id="petImage" src="" alt="Imagem do animal" />
+        <div class="controls">
+          <select id="animalSelect">
+            <option value="dog">Cachorro</option>
+            <option value="cat">Gato</option>
+          </select>
+          <button id="fetchButton">Mostrar</button>
+        </div>
+      </div>
+    </main>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
