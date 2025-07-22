@@ -1,0 +1,13 @@
+{
+  "inscricoes": [
+    {
+      "id": "3958",
+      "nome": "andré lucas",
+      "email": "andrelusantosa@gmail.com",
+      "sexo": "Masculino",
+      "curso": "Git e GitHub",
+      "descricao": "aaaa",
+      "termos": true
+    }
+  ]
+}
